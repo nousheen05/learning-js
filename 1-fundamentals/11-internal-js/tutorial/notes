@@ -1,0 +1,6 @@
+1. As we know js is used to add functionlaity and make our boring, beutiful web pages intereractive
+2. Ways to add Javascript in html file
+   a) inline js - not recommended to use basically, added like an attribute
+   b) internal js - adding js at end of body tag, but when code gets huge we need an external file, eclosing js code inside script element
+   c) external js - add script tag at end of body refering js file
+   [<script src="./app.js"></script>]

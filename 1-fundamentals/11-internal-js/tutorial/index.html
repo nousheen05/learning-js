@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Basics</title>
+  </head>
+  <body>
+    <h1>hello world</h1>
+    <h4>hello people</h4>
+
+    <!-- inline JS -->
+    <button class="btn" onclick="alert('hey you clicked a button')">
+      Inline js button</button>
+
+    <br><br>
+
+
+    <!-- internal js -->
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+
+
+    <script>
+      document.querySelectorAll('.btn').forEach((item) => {
+        item.addEventListener('click', () => {
+          alert('this is internal  js')
+        })
+      })
+    </script>
+  </body>
+</html>
