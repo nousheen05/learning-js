@@ -36,4 +36,4 @@ console.log(phone, version);
 //````````````````` let vs const vs var`````````````
 
 // var - same as let but used in before ES6
-// const - cant reassign it
+// const - cant reassign it, variable itself cannot be reassigned to a different value
