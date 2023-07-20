@@ -11,8 +11,10 @@ const people = [
 ];
 
 const youngPeople = people.filter(function (person) {
-  return person.age <= 25;
+  return person.age <= 25;  // condition on eash object of original array
 });
+console.log(youngPeople);
+
 
 const developers = people.filter(function (person) {
   return person.position === 'senior developer';

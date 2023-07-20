@@ -1,4 +1,4 @@
-// forEach
+// forEach - its a method of array
 // does not return new array
 
 const people = [
@@ -11,8 +11,10 @@ function showPerson(person) {
   console.log(person.position.toUpperCase());
 }
 
-// people.forEach(showPerson);
+people.forEach(showPerson); // passing callback function as an argument
 
+
+// using anonymous function
 people.forEach(function (item) {
   console.log(item.position.toUpperCase());
 });

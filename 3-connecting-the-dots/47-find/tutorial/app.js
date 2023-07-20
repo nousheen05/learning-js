@@ -22,6 +22,9 @@ const person = people.find(function (person) {
 
 console.log(person.name);
 
+
+//filter returns an array of elements which satisfy the condition
+//while find returns first instance of object which satisfy the conditon
 const person2 = people.filter(function (person) {
   return person.id === 3;
 });
