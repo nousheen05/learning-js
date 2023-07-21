@@ -1,0 +1,22 @@
+1) When a web page is loaded, the browser creates a Document Object Model of the page
+2) The HTML DOM model is constructed as a tree of Objects or nodes
+3) JavaScript can change all the HTML elements in the page
+JavaScript can change all the HTML attributes in the page
+JavaScript can change all the CSS styles in the page
+JavaScript can remove existing HTML elements and attributes
+JavaScript can add new HTML elements and attributes
+JavaScript can react to all existing HTML events in the page
+JavaScript can create new HTML events in the page
+
+4) similar to css - where we select and apply the required effects
+
+
+.....window and dom....
+1) window object = browser api, which gives methods and properties
+to work with browser
+2) within the window object we have document object
+3) no need of writing "window.document" as js always looks
+into window object for all methods
+4) document is an object itself with different properties
+It represts HTML of our page 
+5) console.dir(document) === to get all properties of document
